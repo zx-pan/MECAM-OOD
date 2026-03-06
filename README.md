@@ -53,5 +53,18 @@ python3 train_cnet.py -b 128 -d ISIC --model_type Res18 -e 200
 cd MECAM-OODD
 python3 main.py -id ISIC -ood RSNA --pretrained_path MERes18_ISIC_1231_003419 -gid 0
 ```
+## Cite
+If you find this repository useful, please use the following BibTeX entry for citation.
+```
 
+@INPROCEEDINGS{11356626,
+  author={Pan, Zixuan and Chen, Yu-Jen and Xia, Jun and Ficco, Max and Chen, Jianxu and Ho, Tsung-Yi and Shi, Yiyu},
+  booktitle={2025 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)}, 
+  title={Multi-Exit Class Activation Map Guided Feature Masking for Unsupervised Out-of-Distribution Detection in Medical Imaging}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={2699-2706},
+  keywords={Analytical models;Pneumonia;Source coding;Predictive models;Feature extraction;Data models;Robustness;Cams;Safety;Biomedical imaging;Out-of-distribution detection;Class activation mapping;Multi-exit network},
+  doi={10.1109/BIBM66473.2025.11356626}}
 
